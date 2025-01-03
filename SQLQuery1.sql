@@ -26,7 +26,7 @@ values(1, '2004-02-17 23:15:40', 'dress', 2, 2000, 'online',10,'delhi'),
 INSERT INTO amz (id, or_date, name, qnt, price, mode, discount) --default key 
 VALUES (7, '2022-11-30', 'book', 1, 250, 'debit', 13); -- automatic get the delhi in city col
 
---way 2 (not showing the col city) DEFAULT
+--way 2 (with the col city) DEFAULT
 INSERT INTO amz (id, or_date, name, qnt, price, mode, discount,city) --default key 
 VALUES (8, '2022-11-30', 'book', 1, 250, 'debit', 13,default); -- automatic get the delhi in city col
 
