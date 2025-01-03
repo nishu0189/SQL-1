@@ -12,3 +12,6 @@ UNIQUE: Prevents duplicate values in specified columns.
 CHECK: Validates data against specific conditions.
 DEFAULT: Assigns a default value when none is provided.
 PRIMARY KEY: Combines columns to create a unique identifier.
+
+-------------------------------------------------------------------------------------------------------
+Table amz
